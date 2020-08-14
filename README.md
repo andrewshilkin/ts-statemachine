@@ -1,4 +1,4 @@
-# ts-statemachine
+# andshil-ts-statemachine
 Typescript realization of state machine
 
 sample: 
