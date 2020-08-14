@@ -1,0 +1,22 @@
+{
+  "name": "andshil-ts-statemachine",
+  "version": "0.1.0",
+  "description": "Typescript realization of state machine",
+  "main": "./index.ts",
+  "scripts": {
+    "test": "ts-node .\\test\\index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "statemachine"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Andrew Shilkin",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}

@@ -1,8 +1,5 @@
-# ts-statemachine
-Typescript realization of state machine
+import { StateMachineClasses } from '../index'
 
-sample: 
-```typescript
 // create need states
 class IdleState extends StateMachineClasses.BaseState {
     public execute(): void {
@@ -32,4 +29,3 @@ class StateMachine extends StateMachineClasses.StateMachine {
 let stateMachine: StateMachine = new StateMachine();
 stateMachine.setState(0);
 stateMachine.setState(1);
-```
